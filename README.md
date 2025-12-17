@@ -2,6 +2,8 @@
 
 A production-lean MVP pipeline that monitors a CSV file for Packt book prices, syncs changes to a database, validates books via free APIs (Google Books, Open Library), and compares prices to send notifications when third-party sources are cheaper by a configurable threshold.
 
+![Project Screenshot](https://raw.githubusercontent.com/jilango/book-price-tracker/refs/heads/main/project-screenshot.png)
+
 ## Architecture
 
 The system consists of three main components:
