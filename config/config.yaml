@@ -1,0 +1,22 @@
+# Configuration file for Book Price Drop Watcher
+
+# CSV Configuration
+csv_file_path: "data/packt_books.csv"
+csv_check_interval_minutes: 15
+
+# Price Comparison Thresholds
+threshold_percentage: 10  # 10% cheaper
+threshold_absolute: 5.00   # $5 cheaper
+
+# Scheduling
+price_check_interval_hours: 24
+notification_cooldown_hours: 24
+
+# Database
+db_path: "data/books.db"
+
+# Third-party API Sources
+third_party_sources:
+  - "google_books"
+  - "open_library"
+
